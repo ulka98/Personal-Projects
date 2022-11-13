@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="harvensine_distance <= 2.083\nmse = 0.631\nsamples = 546991\nvalue = 6.467", fillcolor="#eeac7d"] ;
+1 [label="harvensine_distance <= 0.977\nmse = 0.48\nsamples = 271909\nvalue = 5.975", fillcolor="#f0b58b"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="harvensine_distance <= 0.53\nmse = 0.642\nsamples = 87919\nvalue = 5.537", fillcolor="#f2be98"] ;
+1 -> 2 ;
+3 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 3 ;
+1274 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 1274 ;
+5421 [label="harvensine_distance <= 1.456\nmse = 0.268\nsamples = 183990\nvalue = 6.184", fillcolor="#efb185"] ;
+1 -> 5421 ;
+5422 [label="(...)", fillcolor="#C0C0C0"] ;
+5421 -> 5422 ;
+10933 [label="(...)", fillcolor="#C0C0C0"] ;
+5421 -> 10933 ;
+16748 [label="harvensine_distance <= 4.952\nmse = 0.304\nsamples = 275082\nvalue = 6.953", fillcolor="#eca36e"] ;
+0 -> 16748 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+16749 [label="harvensine_distance <= 3.091\nmse = 0.206\nsamples = 175366\nvalue = 6.722", fillcolor="#eda775"] ;
+16748 -> 16749 ;
+16750 [label="(...)", fillcolor="#C0C0C0"] ;
+16749 -> 16750 ;
+22599 [label="(...)", fillcolor="#C0C0C0"] ;
+16749 -> 22599 ;
+27536 [label="harvensine_distance <= 9.244\nmse = 0.218\nsamples = 99716\nvalue = 7.36", fillcolor="#ea9b62"] ;
+16748 -> 27536 ;
+27537 [label="(...)", fillcolor="#C0C0C0"] ;
+27536 -> 27537 ;
+31190 [label="(...)", fillcolor="#C0C0C0"] ;
+27536 -> 31190 ;
+}
